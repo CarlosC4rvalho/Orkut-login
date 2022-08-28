@@ -1,0 +1,81 @@
+/*resetando a pagina web*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* selecionado o background e a font do site*/
+body {
+  background-color: #F5A9F2;
+  font-family: Sans-Serif;
+}
+
+/*flex box para alinhar tudo*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+/*titulo "Orkut"*/
+.titulo {
+  color: #FF0080;
+  text-align: center;
+}
+
+/*o bloco branco em si*/
+.bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: white;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: none;
+  ;
+}
+
+/*estilização dos inputs*/
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #FAFAFA;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+}
+
+/* espaçamento dos inputs e botões*/
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/*botão enviar*/
+.login {
+  padding: 15px;
+  width: 100%;
+  background-color: #FF0080;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+/*não tem uma conta*/
+.link {
+  color: #58ACFA;
+}
+
+/*texto*/
+.texto {
+  color: gray;
+}
